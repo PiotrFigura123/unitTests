@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pl.pfigura.testing.account.AddressTest" time="0.063" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\pfigura\IdeaProjects\unitTests\target\test-classes;C:\Users\pfigura\IdeaProjects\unitTests\target\classes;C:\Users\pfigura\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\pfigura\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\pfigura\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\pfigura\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\pfigura\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\pfigura\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.2\junit-jupiter-api-5.3.2.jar;C:\Users\pfigura\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\pfigura\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\pfigura\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\pfigura\.m2\repository\org\mockito\mockito-junit-jupiter\2.24.0\mockito-junit-jupiter-2.24.0.jar;C:\Users\pfigura\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\pfigura\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\pfigura\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\pfigura\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk-11.0.7\bin"/>
+    <property name="sun.java.command" value="C:\Users\pfigura\AppData\Local\Temp\surefire185736935778143018\surefirebooter2371226606450435182.jar C:\Users\pfigura\AppData\Local\Temp\surefire185736935778143018 2023-04-03T16-38-58_682-jvmRun1 surefire9715584583802435544tmp surefire_07858391194361617818tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\pfigura\IdeaProjects\unitTests\target\test-classes;C:\Users\pfigura\IdeaProjects\unitTests\target\classes;C:\Users\pfigura\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\pfigura\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\pfigura\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\pfigura\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\pfigura\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\pfigura\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.2\junit-jupiter-api-5.3.2.jar;C:\Users\pfigura\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\pfigura\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\pfigura\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\pfigura\.m2\repository\org\mockito\mockito-junit-jupiter\2.24.0\mockito-junit-jupiter-2.24.0.jar;C:\Users\pfigura\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\pfigura\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\pfigura\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\pfigura\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pfigura"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Java\jdk-11.0.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\pfigura\IdeaProjects\unitTests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\pfigura\AppData\Local\Temp\surefire185736935778143018\surefirebooter2371226606450435182.jar"/>
+    <property name="idea.version2020.1.4" value="true"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="user.name" value="pfigura"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\pfigura\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pfigura\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.dir" value="C:\Users\pfigura\IdeaProjects\unitTests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Java\jdk-11.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\apache-maven-3.8.1;C:\Program Files\apache-maven-3.8.1\bin;C:\Java\jdk-11.0.7\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Brackets\command;C:\Hadoop\hadoop-2.8.0\bin;C:\Hadoop\hadoop-2.8.0\sbin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\pfigura\AppData\Local\Microsoft\WindowsApps;;C:\Users\pfigura\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="givenAdressesShouldNotBeEmptyAndHasProperNames{String, String}" classname="pl.pfigura.testing.account.AddressTest" time="0.017"/>
+  <testcase name="givenAdressesShouldNotBeEmptyAndHasProperNames{String, String}" classname="pl.pfigura.testing.account.AddressTest" time="0"/>
+</testsuite>
